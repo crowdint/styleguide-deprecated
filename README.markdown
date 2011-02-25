@@ -1,6 +1,6 @@
 # Styleguide
 
-A styleguide generator for your rails app 
+A styleguide generator for your rails 3 app 
 
 
 This gem add a generator to your app, to generate a controller, view, css, and route for your app
