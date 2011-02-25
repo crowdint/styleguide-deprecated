@@ -5,7 +5,7 @@ A styleguide generator for your rails 3 app
 
 This gem add a generator to your app, to generate a controller, view, css, and route for your app
 
-The view contains all the common html tags, and it will take all the styles that you have code, no you 
+The view contains all the common html tags, and it will take all the styles that you have coded, now you 
 can see the look of each tag.
 
 ## Installation
@@ -23,24 +23,27 @@ thats all.
 
 ## Usage
 
-Once its installed you'll have a new Rails generator *rails genereate styleguide:controller*
+Once its installed you'll have a new Rails generator *rails generate styleguide:controller*
 
-for example if you want a stylguide with the name mystyleguide just:
+for example if you want a styleguide with the name mystyleguide just:
 
-    rails genereate styleguide:controller mystyleguide
+    rails generate styleguide:controller mystyleguide
 
-this will generateat
+this will generate
 
     create  app/controllers/mystyleguides_controller.rb
     create  app/views/mystyleguides/show.html.haml
     create  public/stylesheets/mystyleguides.css
     route  resource :mystyleguide, :only => :show
 
+And you can access to your styleguide
+
+     http://localhost:3000/mystyleguide
 
 ## TODO
 
 * add rspec for routes
-* add blueprints and compass suport
+* add blueprints and compass support
 * create a fork for sinatra
 
 # About the Author
