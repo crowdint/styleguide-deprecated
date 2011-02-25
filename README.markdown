@@ -23,7 +23,11 @@ thats all.
 
 ## Usage
 
-Once its installed you'll have a new Rails generator *rails genereate styleguide:controller mystyleguide*
+Once its installed you'll have a new Rails generator *rails genereate styleguide:controller*
+
+for example if you want a stylguide with the name mystyleguide just:
+
+    rails genereate styleguide:controller mystyleguide
 
 this will generateat
 
